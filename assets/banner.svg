@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="LumiDeck — product page and public issue tracker for the Stream Deck plugin driving WLED lamps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#141a35"/>
+      <stop offset="1" stop-color="#1c1030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.5" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ffb020"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="1" stop-color="#ffb020"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <!-- Motif: LumiDeck's own identity — the bulb over the four keys, from its icon -->
+  <g transform="translate(160,172)">
+    <circle cx="0" cy="-26" r="46" fill="url(#accent)" opacity="0.28" filter="url(#glow)"/>
+    <path d="M0 -74 a34 34 0 0 1 20 61 c-4 4 -5 8 -5 12 h-30 c0 -4 -1 -8 -5 -12 a34 34 0 0 1 20 -61 z"
+          fill="#ffffff"/>
+    <g stroke="#b9a7e8" stroke-width="5" stroke-linecap="round">
+      <path d="M-11 8 h22"/><path d="M-9 20 h18"/>
+    </g>
+    <g>
+      <rect x="-76" y="38" width="34" height="34" rx="8" fill="#ffd200"/>
+      <rect x="-34" y="38" width="34" height="34" rx="8" fill="#e4032e"/>
+      <rect x="8"   y="38" width="34" height="34" rx="8" fill="#0ec04a"/>
+      <rect x="50"  y="38" width="34" height="34" rx="8" fill="#0d6ad6"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(300,116)">
+    <text x="4" y="-34" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="url(#accent)" letter-spacing="5">BENLAB · PRODUCT</text>
+    <text x="0" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="84" font-weight="700" fill="#ffffff" letter-spacing="-1">LumiDeck</text>
+    <rect x="4" y="62" width="349" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="4" y="108" font-family="-apple-system, Segoe UI, sans-serif" font-size="23" fill="#aab4d8">Product page and public issue tracker for the LumiDeck Stream Deck plugin.</text>
+    <text x="4" y="146" font-family="Menlo, Consolas, monospace" font-size="17" fill="#7f8bb5">lumideck-support  ·  WLED local API  ·  100% local  ·  ~45 ms per press</text>
+  </g>
+
+  <!-- Lamp line (shared family strip) -->
+  <g transform="translate(300,286)" opacity="0.9">
+    <rect x="0" y="0" width="910" height="46" rx="8" fill="#0e1430" stroke="#2a3358" stroke-width="1.5"/>
+    <path d="M 26 23 H 910" stroke="#2a3358" stroke-width="2"/>
+    <path d="M 26 23 H 212" stroke="url(#accent)" stroke-width="2.5"/>
+    <g><circle cx="26" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="88" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="150" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="212" cy="23" r="11" fill="url(#accent)" filter="url(#glow)"/><circle cx="274" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="336" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="398" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="460" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/></g>
+  </g>
+</svg>
