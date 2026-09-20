@@ -1,6 +1,6 @@
-<div align="center">
+<p align="center"><img src="assets/banner.svg" alt="LumiDeck" width="100%"></p>
 
-<img src="media/icon.png" width="96" alt="LumiDeck icon">
+<div align="center">
 
 # LumiDeck
 
@@ -66,7 +66,7 @@ RGB + a dedicated white channel + tunable warm↔cool. Measured at **~45 ms end-
 ## Support — report a bug or request a feature
 
 This repository is LumiDeck's **public tracker** (the product itself is a proprietary app; there's
-no source here). Open an [issue](https://github.com/openlamp/streamdeck-plugin-lumideck-support/issues/new/choose)
+no source here). Open an [issue](https://github.com/openlamp/lumideck-support/issues/new/choose)
 and pick **Bug report** or **Feature request**. For bugs, please include your OS, Stream Deck
 model, WLED firmware version, lamp model, and steps to reproduce.
 
